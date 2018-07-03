@@ -1,25 +1,28 @@
 {
-    "name": "contal/trakt",
-    "description": "Wrapper para la API de Trakt.tv adaptado para Laravel 5",
-    "keywords": ["laravel","trakt"],
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Contal",
-            "email": "contacto@contal.cl"
-        }
-    ],
-    "require": {
-        "fabpot/goutte": "^3.2",
-        "laravel/laravel":"^5.6"
-    },
-    "autoload": {
-        "files": [
-            "src/Trakt.php"
-        ],
-        "psr-4": {
-            "Contal\\Trakt\\": "src/"
-        }
-    }
+ "name"       : "contal/trakt",
+ "description": "Wrapper para la API de Trakt.tv adaptado para Laravel 5",
+ "keywords"   : [
+	"laravel",
+	"trakt"
+ ],
+ "type"       : "library",
+ "license"    : "MIT",
+ "authors"    : [
+	{
+	 "name" : "Contal",
+	 "email": "contacto@contal.cl"
+	}
+ ],
+ "require"    : {
+	"fabpot/goutte"  : "^3.2",
+	"laravel/laravel": "^5.6"
+ },
+ "autoload"   : {
+	"files": [
+	 "src/Trakt.php"
+	],
+	"psr-4": {
+	 "Contal\\Trakt\\": "src/"
+	}
+ }
 }

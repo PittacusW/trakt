@@ -1,15 +1,10 @@
 <?php
-namespace Contal\Trakt;
- 
- 
-class Recommendations {
 
-	
+ namespace Contal\Trakt;
+
+ class Recommendations {
 
 	public function getShow() {
-		return Trakt::query("GET", "recommendations/shows");
+	 return Trakt::query("GET", "recommendations/shows");
 	}
-
-	
-	
-}
+ }
